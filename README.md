@@ -6,7 +6,8 @@
  
  1. create an empty repo in gitlab and clone to local machine
  
- 2. train the model and wrap it up in a pickle file
+ 2. train the model and wrap it up in a pickle file \\
+ [model we used|https://www.kaggle.com/code/nobodymartin/lightgbm-explanation-practice-with-dataset/notebook]
  
  3. write main(app.py) function and data schema
  
