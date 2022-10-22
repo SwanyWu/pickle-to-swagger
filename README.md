@@ -26,7 +26,9 @@ we don't need to run the app 24/7 to make it accessible, just trigger the contai
 
  8. run `docker build -t dockapp:v1 .` to build your own image based on base python:3.9. can check current images in docker UI or `docker images`
 
- 9. run `docker container run -d -p 8000:5000 dockapp:v1` to build container, you might want to change `8000` if it's already in use. and then run `docker container ls` to check available containers.
+ 9. run `docker run -d --name mlcontainer -p 80:80 dockapp:v1` to build container, you might want to change `8000` if it's already in use. and then run `docker container ls` to check available containers.
+
+ now go to docker hub and launch app in browser.
 
 
 
