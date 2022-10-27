@@ -34,5 +34,5 @@ we don't need to run the app 24/7 to make it accessible, just trigger the contai
 - ?swagger UI = streamlit UI
 2 ways for users to provide input but streamlit is more customized
 
-
- 
+- why FastAPI if Streamlit?
+ additional functionalities like login, database, API requests etc. *So* the main purpose of streamlit is to build an interactive dashboard for data oriented project.
