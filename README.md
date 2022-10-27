@@ -30,8 +30,9 @@ we don't need to run the app 24/7 to make it accessible, just trigger the contai
 
  now go to docker hub and launch app in browser.
 
-
-
+ ### notes
+- ?swagger UI = streamlit UI
+2 ways for users to provide input but streamlit is more customized
 
 
  
